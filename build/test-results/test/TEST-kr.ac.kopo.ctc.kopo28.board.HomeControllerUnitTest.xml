@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.ac.kopo.ctc.kopo28.board.HomeControllerUnitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-19T05:52:58.144Z" hostname="DESKTOP-PMID8VC" time="0.001">
+  <properties/>
+  <testcase name="login_returns_login_view()" classname="kr.ac.kopo.ctc.kopo28.board.HomeControllerUnitTest" time="0.0"/>
+  <testcase name="root_returns_home_view()" classname="kr.ac.kopo.ctc.kopo28.board.HomeControllerUnitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

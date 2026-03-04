@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.ac.kopo.ctc.kopo28.board.PostServiceImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-19T05:52:58.147Z" hostname="DESKTOP-PMID8VC" time="0.031">
+  <properties/>
+  <testcase name="findById: 존재하지 않으면 예외" classname="kr.ac.kopo.ctc.kopo28.board.PostServiceImplTest" time="0.004"/>
+  <testcase name="findById: 조회수 1 증가 후 Post 반환" classname="kr.ac.kopo.ctc.kopo28.board.PostServiceImplTest" time="0.02"/>
+  <testcase name="findAllByBoardId: 페이징된 목록 반환" classname="kr.ac.kopo.ctc.kopo28.board.PostServiceImplTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

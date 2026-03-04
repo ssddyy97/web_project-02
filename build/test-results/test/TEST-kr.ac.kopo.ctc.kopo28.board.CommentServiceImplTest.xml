@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.ac.kopo.ctc.kopo28.board.CommentServiceImplTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-19T05:52:57.621Z" hostname="DESKTOP-PMID8VC" time="0.52">
+  <properties/>
+  <testcase name="save: 최상위 댓글 저장 시 Post/User/createdAt 설정" classname="kr.ac.kopo.ctc.kopo28.board.CommentServiceImplTest" time="0.47"/>
+  <testcase name="deleteById: 미존재 시 예외" classname="kr.ac.kopo.ctc.kopo28.board.CommentServiceImplTest" time="0.009"/>
+  <testcase name="getPageByPostId: 목록 반환" classname="kr.ac.kopo.ctc.kopo28.board.CommentServiceImplTest" time="0.031"/>
+  <testcase name="save: 대댓글 저장 시 parentComment 연결" classname="kr.ac.kopo.ctc.kopo28.board.CommentServiceImplTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

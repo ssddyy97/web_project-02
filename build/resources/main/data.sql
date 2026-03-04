@@ -1,0 +1,2 @@
+INSERT INTO boards (board_id, name, created_at) VALUES (1, '자유게시판', NOW()) ON DUPLICATE KEY UPDATE name = name;
+INSERT INTO boards (board_id, name, created_at) VALUES (2, '공지사항', NOW()) ON DUPLICATE KEY UPDATE name = name;
