@@ -1,64 +1,127 @@
 
 概要
 
-本プロジェクトは、Webアプリケーション開発の基礎を学習するために作成したWebプロジェクトです。
-HTML、CSS、JavaScriptを利用して、基本的なWebページの構成と動的なインターフェースの実装を行いました。
+本プロジェクトは、Spring Bootを利用して開発したWebアプリケーションです。
+ユーザー管理や掲示板機能を中心としたWebサービスを実装し、Spring MVCアーキテクチャをベースにバックエンド開発の流れを学習することを目的としています。
 
-ユーザーインターフェースの構築やJavaScriptによる動的処理を通して、フロントエンド開発の基本的な仕組みを理解することを目的としています。
+Spring Securityによる認証・認可、JPAおよびMyBatisを利用したデータベース連携などを実装し、実際のWebサービスに近い構成で開発を行いました。
 
 技術スタック
+Backend
 
-HTML5
+Java
 
-CSS3
+Spring Boot
 
-JavaScript
+Spring MVC
+
+Spring Security
+
+JWT Authentication
+
+Database
+
+MySQL
+
+Spring Data JPA
+
+MyBatis
+
+View
+
+JSP
+
+JSTL
+
+その他
+
+Spring AOP
+
+Spring Cache
+
+Gradle
 
 主な機能
 
-本プロジェクトでは以下の機能を実装しています。
+本アプリケーションでは以下の機能を実装しています。
 
-Webページレイアウトの構築
+ユーザー管理
 
-ユーザーインターフェースの設計
+ユーザー登録
 
-JavaScriptによる動的処理
+ログイン
 
-基本的なイベント処理
+認証 / 認可（Spring Security）
 
-フロントエンドUIの実装
+掲示板機能
 
-システム構成
-User
- ↓
-Web Browser
- ↓
-HTML / CSS
- ↓
-JavaScript
- ↓
-Dynamic UI
+投稿作成
 
-ユーザーはブラウザを通してWebページにアクセスし、JavaScriptによって動的なインターフェースが実行されます。
+投稿一覧表示
 
+投稿詳細表示
+
+投稿編集
+
+投稿削除
+
+システムアーキテクチャ
+
+本プロジェクトは、Spring MVCのレイヤードアーキテクチャを採用しています。
+
+Client (Browser)
+        ↓
+Controller
+        ↓
+Service
+        ↓
+Repository
+        ↓
+Database
+
+各レイヤーを分離することで、保守性と拡張性を向上させています。
+
+プロジェクト構造
+src
+ ├ main
+ │   ├ java
+ │   │   └ controller
+ │   │   └ service
+ │   │   └ repository
+ │   │   └ domain
+ │   │   └ dto
+ │   │   └ config
+ │   │   └ aop
+ │   │
+ │   ├ resources
+ │   │   └ application.properties
+ │   │   └ mappers
+ │   │
+ │   └ webapp
+ │       └ WEB-INF
+ │           └ views (JSP)
 学習目的
 
 本プロジェクトでは以下の内容を学習しました。
 
-Webページ構造（HTML）
+Spring Bootを利用したWebアプリケーション開発
 
-スタイル設計（CSS）
+Spring MVCアーキテクチャの理解
 
-フロントエンドロジック（JavaScript）
+Spring Securityによる認証処理
 
-基本的なWebアプリケーション構造
+JPA / MyBatisによるデータベース連携
+
+レイヤードアーキテクチャ設計
 
 今後の改善予定
 
-UI/UXの改善
+今後は以下の機能を追加する予定です。
 
-モジュール化されたJavaScript設計
+REST API対応
 
-API連携によるデータ取得
+フロントエンドフレームワーク（React / Vue）連携
 
-レスポンシブデザイン対応
+Docker / Kubernetesによるデプロイ
+
+CI/CDパイプライン構築
